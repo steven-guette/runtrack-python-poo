@@ -58,7 +58,7 @@ class Car:
             self.__OldYear = old_year
 
     def SetTank(self, tank):
-        if WShield.IsNumeric(tank):
+        if WShield.IsNumeric(tank, 0):
             self.__Tank = tank
 
     # endregion #################################
